@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.animation {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.paper-plane {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100px;
+    transform: rotate(45deg);
+}
